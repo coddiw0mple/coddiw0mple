@@ -23,8 +23,8 @@ class About extends DivithPhogat
             "Java",
             "C/C++",
             "Rust",
-            "Scala",
-            "R"
+            "JavaScript",
+            "Scala"
         };
     }
     
