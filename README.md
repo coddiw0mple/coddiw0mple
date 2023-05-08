@@ -35,6 +35,9 @@ class About extends DivithPhogat
             "Tensorflow",
             "JAX",
             "Spark",
+            "Firebase",
+            "Flutter",
+            "WandB"
         };
     }
     
