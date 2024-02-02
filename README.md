@@ -4,7 +4,7 @@ You can click the Preview link to take a look at your changes.
 --->
 ```java
 
-class About extends DivithPhogat
+class About extends coddiw0mple
 {
     public static HashMap<String, String> getCurrentWorkplace()
     {
