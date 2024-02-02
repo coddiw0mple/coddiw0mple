@@ -10,7 +10,7 @@ class About extends DivithPhogat
     {
         HashMap<String, String> details = new HashMap<>();
         
-        details.put("college", "Amrita Vishwa Vidyapeetham");
+        details.put("college", "[redacted]");
         details.put("position", "student");
         
         return details;
