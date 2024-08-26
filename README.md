@@ -8,18 +8,9 @@ public class Divith extends About {
     private static final String LOCATION = "Bengaluru, India";
     private static final String EMAIL = "divithphogat@gmail.com";
 
-    public static Map<String, String> getEducation() {
-        Map<String, String> education = new HashMap<>();
-        education.put("B.Tech", "Computer Science and Engineering (AI), Amrita Vishwa Vidyapeetham, GPA: 8.26");
-        education.put("AISSCE", "Delhi Public School, Score: 94.2%");
-        return education;
-    }
-
-    public static Map<String, String> getExperience() {
-        Map<String, String> experience = new HashMap<>();
-        experience.put("BNP Paribas", "Business Analyst intern, Chennai, TN (Jan 2024 - Jul 2024)");
-        experience.put("Fractal Analytics", "Project Intern (Generative AI), Bengaluru, KA (May 2023 - Jul 2023)");
-        return experience;
+    public static String getWorkplace() {
+        String workplace = "Oracle India";
+        return workplace;
     }
 
     public static Map<String, String> getProjects() {
@@ -36,19 +27,6 @@ public class Divith extends About {
         skills.put("Frameworks/Libraries", new String[]{"TensorFlow", "Flutter", "PyTorch", "React", "Node.js", "Next.js"});
         skills.put("Developer Tools", new String[]{"Git", "Firebase", "Supabase", "AWS", "Google Cloud Platform"});
         return skills;
-    }
-
-    public static Map<String, String> getCertifications() {
-        Map<String, String> certifications = new HashMap<>();
-        certifications.put("Google Tensorflow Developer", "Feb 2021");
-        certifications.put("AWS Certified Cloud Practitioner", "Feb 2023");
-        certifications.put("Oracle Java Certified Associate", "");
-        return certifications;
-    }
-
-    public static int getYearsOfExperience() {
-        // Let's pretend I have more experience than I actually do
-        return 5; 
     }
 
     public static String getFutureGoal() {
