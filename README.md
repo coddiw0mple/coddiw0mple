@@ -5,10 +5,8 @@ You can click the Preview link to take a look at your changes.
 ```java
 public class Divith extends About {
     private static final String NAME = "Divith Phogat";
-    private static final String LOCATION = "Mumbai, India";
+    private static final String LOCATION = "Bengaluru, India";
     private static final String EMAIL = "divithphogat@gmail.com";
-    private static final String PHONE = "+91 9372846149";
-    private static final String GITHUB = "github.com/coddiw0mple";
 
     public static Map<String, String> getEducation() {
         Map<String, String> education = new HashMap<>();
