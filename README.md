@@ -3,46 +3,42 @@ coddiw0mple/coddiw0mple is a ✨ special ✨ repository because its `README.md` 
 You can click the Preview link to take a look at your changes.
 --->
 
-```cpp
-// Every order gets matched eventually. Time priority matters.
+```python
+# I like problems that sit where markets meet machine learning.
 
-#include <ambition>
+class Divith:
+    name     = "Divith Phogat"
+    status   = "MSc Data Science & AI Technology (DSAIT) @ TU Delft — incoming"
+    based_in = "Delft, Netherlands"
+    formerly = "Applications Developer @ Oracle (Enterprise Risk & Finance)"
 
-namespace divith {
+    # Where I want to be: the overlap, not the extremes.
+    interest = {"quant", "ML"} & {"trading systems", "learning agents"}
+    #          ↳ quant research + ML, not pure HFT, not pure ML
 
-struct Profile {
-    static constexpr auto name     = "Divith Phogat";
-    static constexpr auto role     = "Applications Developer @ Oracle (Enterprise Risk & Finance)";
-    static constexpr auto based_in = "Bengaluru, India";
-    static constexpr auto chasing  = "low-latency systems & quant engineering";
+    building_now = {
+        "exchange-sim":         "C++ limit order book + matching engine; benchmarking "
+                                "std::map vs flat array on throughput & p99 latency",
+        "rl-trading-frictions": "RL trading policies under realistic market frictions "
+                                "(slippage, fees, impact) — my quant×ML playground",
+    }
 
-    // What I do at work: distributed systems that have to be correct,
-    // not just fast — release pipelines, ORDS/Flask APIs, message queues
-    // on Autonomous DB, and root-causing state that cascades across envs.
+    shipped = {
+        "GeneAI":   "Chrome/Firefox LLM extension (rewrite/summarize/Q&A) — 6k+ downloads, ~240 MAU",
+        "Research": "3 papers, '23: medical-imaging CV, speech-to-speech MT, Telugu POS w/ QLoRA",
+    }
 
-    Order<Limit> currently_building[] = {
-        {"exchange-sim",          "C++ matching engine + LOB; benchmarking std::map vs flat array on p99 latency under Poisson order flow"},
-        {"rl-trading-frictions",  "Learning trading policies under realistic market frictions"},
-    };
+    stack = {
+        "languages": ["Python", "C++", "Rust", "Java"],
+        "ml":        ["PyTorch", "RL", "LLM finetuning", "RAG", "embeddings", "CV/NLP"],
+        "systems":   ["low-latency C++", "FastAPI/Flask", "Docker", "Kubernetes"],
+        "data":      ["PostgreSQL", "MongoDB", "Redis"],
+    }
 
-    Order<Filled> shipped[] = {
-        {"GeneAI",   "Chrome/Firefox extension for rewrite/summarize/Q&A — 6k+ downloads, ~240 active users"},
-        {"Research", "3 papers (ICICCT/CIS/ICON '23): medical CV, speech-to-speech MT, Telugu POS w/ QLoRA"},
-    };
-
-    Skills stack = {
-        .languages = {"C++", "Rust", "Python", "Java"},
-        .systems   = {"low-latency C++", "Flask/FastAPI", "Docker", "Kubernetes", "ORDS"},
-        .ml_ai     = {"PyTorch", "LLM finetuning", "RAG", "embeddings", "CV/NLP"},
-        .data      = {"PostgreSQL", "MongoDB", "Redis", "Firestore"},
-    };
-
-    // Trade-off I keep relearning: the obvious data structure is rarely
-    // the fast one. Measure, profile, then argue about big-O.
-    [[nodiscard]] auto north_star() { return "make markets faster, one microsecond at a time"; }
-};
-
-}  // namespace divith
+    def north_star(self):
+        # measure first, theorize second — the fast data structure
+        # and the good policy are rarely the obvious ones
+        return "build trading systems that learn"
 ```
 
-<sub>📫 divithphogat@gmail.com · always happy to talk order books, matching engines, and ML systems.</sub>
+<sub>📫 divithphogat@gmail.com · happy to talk order books, RL, and ML systems.</sub>
